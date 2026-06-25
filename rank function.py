@@ -1,0 +1,5 @@
+#wap to print the values using range function
+
+
+for i in range(1, 11):
+    print(i)
