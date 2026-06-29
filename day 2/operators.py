@@ -147,3 +147,21 @@ c = int(input("Enter third number: "))
 result = (a + b) * c - a / b
 print("Result =", result)
 
+
+#Membership Operators
+
+#Check Character in String
+text = input("Enter a string: ")
+char = input("Enter a character to check: ")
+if char in text:
+    print(char, "is present in the string.")
+else:
+    print(char, "is not present in the string.")
+
+#Check Number in List
+numbers = [1, 2, 3, 4, 5]
+num = int(input("Enter a number to check: "))
+if num in numbers:
+    print(num, "is present in the list.")
+else:
+    print(num, "is not present in the list.")
