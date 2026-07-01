@@ -10,5 +10,5 @@ except ZeroDivisionError:
 except ValueError:
     print("Error: Invalid input. Please enter numeric values.")
 finally:
-    print("Execution completed.")
+    print("BYE BYE")
 
